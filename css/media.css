@@ -1,0 +1,137 @@
+@media (max-width: 1199px) {
+ 
+}
+@media (max-width: 991px) {
+    .navbar ul{
+        background-color: #111;
+        margin-top: 6px;
+    
+    }
+    ul li {
+        position: relative;
+        margin: 20px 0;
+        padding: 30px 0;
+        z-index: 8;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: white;
+    }
+    ul li.active::after, nav ul li:hover::after {
+        height: 77px;
+    }
+    
+    nav ul li::after {
+        top: 15px;
+        z-index: -1;
+    }
+
+    /* carsoul */
+    .carousel .carsoul-overlay .content {
+        width: 80%;
+    }
+    .carousel .carsoul-overlay .content img {
+        width: 190px;
+    }
+    .carousel .carsoul-overlay .content h2 {
+        font-size: 32px;}
+    .carousel .carsoul-overlay .content p {
+        font-size: 15px;}
+        /* product */
+        .product .product-content h3 {
+            font-size: 35px;}
+        .product .product-content .product-p1 {
+            font-size: 17px;}
+        .product .product-content .product-p2 {
+            font-size: 15px;}
+        .product .product-content a{
+            font-size: 16px;
+        }
+
+        .footer li {
+            margin: -35px 0;}
+
+            .about h2 {
+                font-size: 35px;}
+                .about p {
+                    font-size: 18px;}
+                    .product h2, .product .product-content h3 {
+                        font-size: 37px;}          
+                        .foot-Content h3,.foot-Office-Location h3{
+                            margin: 25px 0;
+                            
+                        }
+                        .foot-Content h3::before,.foot-Office-Location h3::before{
+                   
+                            top: 66px;
+                          }
+                        
+        
+}
+@media (max-width: 767px) {
+    .subb{
+        width: 100%;
+    }
+    .product {
+        text-align: center;
+    }
+    .product h2 {
+        margin: 10px 0 0 0;
+        font-size: 35px;
+    }
+    .product .product-img{
+    width: 75%;
+    margin: 40px auto;
+}
+.carousel-control-next {
+    right: 35%;
+    top: 83%;}
+    .carousel-control-prev {
+        left: 35%;
+        top: 83%;}
+        .about h2 {
+            font-size: 30px;
+        text-align: center;}
+            .about p {
+                font-size: 17px;}
+                .foot-Content h3,.foot-Office-Location h3{
+                    margin: 30px 0;
+                    
+                }
+                .foot-Content h3::before,.foot-Office-Location h3::before{
+                   
+                    top: 66px;
+                  }
+            }
+               
+@media (max-width: 565px) {
+   /* carsoul */
+   .carousel .carsoul-overlay .content {
+       width: 85%;
+   }
+   .carousel .carsoul-overlay .content img {
+    width: 160px;
+}
+.carousel .carsoul-overlay .content h2 {
+    font-size: 28px;}
+.carousel .carsoul-overlay .content p {
+    font-size: 13px;}
+    .formm {
+        position: relative;
+  left: 0;
+        width: 92%;
+        margin: 20px;}
+    .foot-Content h3::before {
+        width: 13%;
+    }
+   
+}
+@media (max-width: 350px) {
+    .formm {
+        position: relative;
+ 
+  left: 0;
+        width: 90%;
+        margin: 20px;}
+}
+
+/*# sourceMappingURL=media.css.map */
